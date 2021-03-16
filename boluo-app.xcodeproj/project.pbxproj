@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		323F847025FF9C5D00C0D92C /* AsyncHTTPClient in Frameworks */ = {isa = PBXBuildFile; productRef = 323F846F25FF9C5D00C0D92C /* AsyncHTTPClient */; };
-		323F847725FF9CB400C0D92C /* AsyncHTTPClient in Frameworks */ = {isa = PBXBuildFile; productRef = 323F847625FF9CB400C0D92C /* AsyncHTTPClient */; };
+		32065BB425F757BA00D312E6 /* SpaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32065BB325F757BA00D312E6 /* SpaceList.swift */; };
+		32065BB525F757BA00D312E6 /* SpaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32065BB325F757BA00D312E6 /* SpaceList.swift */; };
 		3266301125F727900025267B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3266301025F727900025267B /* Tests_iOS.swift */; };
 		3266301C25F727900025267B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3266301B25F727900025267B /* Tests_macOS.swift */; };
 		3266301E25F727900025267B /* boluo_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32662FF525F7278D0025267B /* boluo_appApp.swift */; };
@@ -17,6 +17,8 @@
 		3266302125F727900025267B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32662FF625F7278D0025267B /* ContentView.swift */; };
 		3266302225F727900025267B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32662FF725F7278F0025267B /* Assets.xcassets */; };
 		3266302325F727900025267B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32662FF725F7278F0025267B /* Assets.xcassets */; };
+		32F543E32600B33D00C0EACA /* Boluo in Frameworks */ = {isa = PBXBuildFile; productRef = 32F543E22600B33D00C0EACA /* Boluo */; };
+		32F543E52600B34B00C0EACA /* Boluo in Frameworks */ = {isa = PBXBuildFile; productRef = 32F543E42600B34B00C0EACA /* Boluo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32065BB325F757BA00D312E6 /* SpaceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceList.swift; sourceTree = "<group>"; };
 		32662FF525F7278D0025267B /* boluo_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boluo_appApp.swift; sourceTree = "<group>"; };
 		32662FF625F7278D0025267B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32662FF725F7278F0025267B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		3266301725F727900025267B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3266301B25F727900025267B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		3266301D25F727900025267B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3288A0FC2600B00F0039B1ED /* Boluo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Boluo; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				323F847025FF9C5D00C0D92C /* AsyncHTTPClient in Frameworks */,
+				32F543E52600B34B00C0EACA /* Boluo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				323F847725FF9CB400C0D92C /* AsyncHTTPClient in Frameworks */,
+				32F543E32600B33D00C0EACA /* Boluo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +101,7 @@
 		32662FEF25F7278D0025267B = {
 			isa = PBXGroup;
 			children = (
+				3288A0FC2600B00F0039B1ED /* Boluo */,
 				32662FF425F7278D0025267B /* Shared */,
 				32662FFE25F727900025267B /* iOS */,
 				3266300525F727900025267B /* macOS */,
@@ -110,10 +115,10 @@
 		32662FF425F7278D0025267B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				32704FF825F7BDA6008524C3 /* Entities */,
 				32662FF525F7278D0025267B /* boluo_appApp.swift */,
 				32662FF625F7278D0025267B /* ContentView.swift */,
 				32662FF725F7278F0025267B /* Assets.xcassets */,
+				32065BB325F757BA00D312E6 /* SpaceList.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -164,13 +169,6 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
-		32704FF825F7BDA6008524C3 /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entities;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,7 +186,7 @@
 			);
 			name = "boluo-app (iOS)";
 			packageProductDependencies = (
-				323F846F25FF9C5D00C0D92C /* AsyncHTTPClient */,
+				32F543E42600B34B00C0EACA /* Boluo */,
 			);
 			productName = "boluo-app (iOS)";
 			productReference = 32662FFC25F727900025267B /* boluo-app.app */;
@@ -208,7 +206,7 @@
 			);
 			name = "boluo-app (macOS)";
 			packageProductDependencies = (
-				323F847625FF9CB400C0D92C /* AsyncHTTPClient */,
+				32F543E22600B33D00C0EACA /* Boluo */,
 			);
 			productName = "boluo-app (macOS)";
 			productReference = 3266300425F727900025267B /* boluo-app.app */;
@@ -285,7 +283,6 @@
 			);
 			mainGroup = 32662FEF25F7278D0025267B;
 			packageReferences = (
-				323F846E25FF9C5D00C0D92C /* XCRemoteSwiftPackageReference "async-http-client" */,
 			);
 			productRefGroup = 32662FFD25F727900025267B /* Products */;
 			projectDirPath = "";
@@ -339,6 +336,7 @@
 			files = (
 				3266302025F727900025267B /* ContentView.swift in Sources */,
 				3266301E25F727900025267B /* boluo_appApp.swift in Sources */,
+				32065BB425F757BA00D312E6 /* SpaceList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +346,7 @@
 			files = (
 				3266302125F727900025267B /* ContentView.swift in Sources */,
 				3266301F25F727900025267B /* boluo_appApp.swift in Sources */,
+				32065BB525F757BA00D312E6 /* SpaceList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +542,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_PREVIEWS = YES;
@@ -565,6 +565,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_PREVIEWS = YES;
@@ -716,27 +717,14 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		323F846E25FF9C5D00C0D92C /* XCRemoteSwiftPackageReference "async-http-client" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/swift-server/async-http-client.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		323F846F25FF9C5D00C0D92C /* AsyncHTTPClient */ = {
+		32F543E22600B33D00C0EACA /* Boluo */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 323F846E25FF9C5D00C0D92C /* XCRemoteSwiftPackageReference "async-http-client" */;
-			productName = AsyncHTTPClient;
+			productName = Boluo;
 		};
-		323F847625FF9CB400C0D92C /* AsyncHTTPClient */ = {
+		32F543E42600B34B00C0EACA /* Boluo */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 323F846E25FF9C5D00C0D92C /* XCRemoteSwiftPackageReference "async-http-client" */;
-			productName = AsyncHTTPClient;
+			productName = Boluo;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
